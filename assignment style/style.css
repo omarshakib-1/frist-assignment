@@ -137,12 +137,14 @@ span{
 
   /* footer section */
 
+
   .footer-title {
     display: flex;
-    gap: 100px;
+    gap: 230px;
     background-color: #111;
     color: #fff;
-    padding: 88px 186px;
+    padding: 88px 312px;
+    position: relative;
   }
   .footer-description h2{
     font-size: 45px;
@@ -153,4 +155,35 @@ span{
     color: #fff;
     font-size: 16px;
     font-weight: 400;
+  } 
+  /* social icon */
+  .icon{
+    display: flex;
   }
+  /* form section */
+  .form h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+.form input[type="email"]{
+    font-size: 18px;
+    font-weight: 400;
+    color: #F3F3F3;
+    background-color: #111;
+    margin-bottom: 15px;
+    padding:20px 160px 20px 20px;
+    border-radius: 5px;
+    border: 1px solid #F3F3F3;
+}
+.form #button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #005FAC;
+    color: #fff;
+    border: 0;
+    padding: 20px 35px;
+    border-radius: 5px;
+
+}
