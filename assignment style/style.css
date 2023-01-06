@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner */
+
+header{
+    background-image: url(../images/banner/banner3.png);
+    height: 90vh;
+    color: #fff;
+    background-size: cover;
+    background-position:no-repeat;
+}
+.header {
+    text-align: right;
+    max-width: 525px;
+    float: right;
+    position: relative;
+    top: 177px;
+    right: 91px;
+  }
+  .header h1{
+    font-size: 65px;
+    font-weight: 700;
+    
+  }
+  .header p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .header button{
+    padding: 20px 25px ;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    margin-top: 32px;
+  }
+/* banner title */
+
+.img-title{
+    display: flex;
+    gap: 90px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    margin: 130px auto;
+}
+.title h1{
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.title p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.unorder {
+    list-style: none;
+    margin: 0 15px;
+}
+.unorder li{
+    padding: 10px 0;
+}
+span{
+    color: #16D887;
+    margin-right: 10px;
+}
+
+/* skills part  */
+.skills-section{
+
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+.skill {
+   padding: 0 50px;
+  }
+  .skill h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+.skill p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* watch section */
+
+.watch-section{
+    width: 1140px;
+    margin: 130px auto;
+    background-image: url(../images/watch.png);
+    height: 300px;
+
+    position: relative;
+    z-index: 1;
+}
+.watch-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/gradient1.png);
+    z-index: -1;
+}
+.watch-gredient {
+    position: relative;
+    top: 61px;
+    left: 30px;
+  }
+  .watch-gredient h3{
+    width: 460px;
+    margin-bottom:13px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .watch-gredient button{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+  }
+
+  /* footer section */
+
+  .footer-title {
+    display: flex;
+    gap: 100px;
+    background-color: #111;
+    color: #fff;
+    padding: 88px 186px;
+  }
+  .footer-description h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+  }
+  .footer-description p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }
