@@ -3,6 +3,11 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.mid-content{
+  max-width: 1300px;
+  margin: auto;
+  margin-bottom: 100px;
+}
 /* banner */
 
 header{
@@ -188,5 +193,43 @@ span{
     border: 0;
     padding: 20px 35px;
     border-radius: 5px;
+}
+/* extra section */
+.extra-section{
+  background-color:#4a67b9;
+  padding-top: 50px;
+  padding-bottom: 30px;
+ 
+}
+.about-section{
+  display: flex;
+  gap: 50px;
+}
+.about-title p {
+  font-size: 28px;
+  margin: 25px;
+  color: #0f0e0e;
+  font-weight: normal;
+}
+.about-title h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.about-user img{
+  width: 60px ;
+  height: 60px;
+}
+.about-item{
 
 }
+.about-item .tag {
+  font-size: 17px;
+  color: #737272;
+  line-height: 36px;
+  margin: 20px 0;
+  background-color: #F8F8F8;
+  padding: 39px 45px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
